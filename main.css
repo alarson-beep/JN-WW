@@ -47,10 +47,6 @@ nav a {
  
 }
 
-.whiteL {
-  color: #FFF;
-}
-
 nav a:hover{
   height: 100%;
   background: #2a2c2e;
@@ -95,13 +91,6 @@ div {
   background: url(media/WB_BG.jpg) no-repeat center center;
   background-color: #cccccc;
   background-size: cover;
-}
-
-#nameS1{
-  font-size: 5em;
-}
-#nameS2{
-  font-size: 3em;
 }
 
 .center {
