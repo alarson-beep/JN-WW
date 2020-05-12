@@ -104,8 +104,6 @@ div {
   margin:2em;
   align-items: flex-start;
   flex-direction: column;
-  flex-basis: 50%;
-  flex-grow: 1;
 
 }
 
@@ -125,12 +123,13 @@ div {
 .A{
   align-self: flex-start;
   text-align: left;
-  flex-grow: 2;
+  witdth: 50%;
   color: #FFF;
 }
 
 .B {
   align-self: flex-end;
   text-align: right;
+  width: 50%;
   color: #FFF;
 }
