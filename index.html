@@ -7,6 +7,7 @@
  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<meta http-equiv="X-UA-Compatible" content="ie=edge">
   	<link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 	<title>Jesse Nichols Wood Works</title>
 </head>
@@ -15,13 +16,13 @@
   <header>
     <nav class="navbar">
       <a href="#home">
-        <div class="center" Label="Jesse Nichols Wood Works">
+        <div class="center " Label="Jesse Nichols Wood Works">
           <h6><strong>Jesse Nichols<br>Woodworks</strong></h6>
         </div>
       </a>
       <a href="#My Story">My Story</a>
-      <a href="#Contacts">Contact</a>
       <a href="#Products">Products</a>
+      <a href="#Contacts">Contact</a>
       <!--<a href="#home">Logout</a>-->
     </nav>
   </header>
@@ -35,7 +36,7 @@
 
     <div class="secsC">
 
-      <section ID="My Story" label="My Story">
+      <section class="sections" ID="My Story" label="My Story">
         <div class="secs">  
           <h2 class="A">My Story</h2>
           <p class="A"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -47,7 +48,11 @@
         </div>
       </section>
 
-      <section ID="Products" label="Products">
+      <div class="page break">
+        
+      </div>
+
+      <section class="sections" ID="Products" label="Products">
         <div class="secs">
           <h2 class="B">Products</h2>
           <p class="B"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -61,10 +66,40 @@
 
     </div>
 
-<footer ID="Contacts" class="cfooter">
-  <h3>Contact Info</h3>
+<footer>
+
+  <div ID="Contacts" class="footer" Label="Contacts">
+    <div class="footer-wrapper">
+      <div>
+        <ul class="noBullets">
+          <li>
+            <h3 class="center">Contact Info</h3>
+          </li>
+          <li>
+            <h5 class="greyL"><i class="fas fa-envelope"></i>&nbsp;&nbsp;Email:&nbsp;&nbsp;&nbsp;<a class="greyL" href="#Contacts">YourEmailHere@youremail.com</a></h5>
+          </li>
+          <li>
+            <h5 class="greyL"><i class="fas fa-phone"></i>&nbsp;&nbsp;Phone:&nbsp;&nbsp;&nbsp;1(234)56-7890</h5>
+          </li>
+        </ul>
+      </div>
+        <div ID="social-media" Label="Social Media">
+          <ul ID="horizontal-icons" >              
+            <li><a class="social-icons" href="https://facebook.com"><i class="fab fa-facebook-square"></a></i></li>
+            <li><a class="social-icons" href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="social-icons" href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; EDF32.net |  Designed by Anthony Larson
+    </div>
+  </div>
+
 </footer>
 
 </body>
+
+<script src="https://kit.fontawesome.com/05ab151388.js" crossorigin="anonymous"></script>
 
 </html>
